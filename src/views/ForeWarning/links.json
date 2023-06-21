@@ -15,18 +15,6 @@
         {
             "src": {
                 "port": "1",
-                "device": "device:leaf2"
-            },
-            "dst": {
-                "port": "2",
-                "device": "device:spine1"
-            },
-            "type": "DIRECT",
-            "state": "ACTIVE"
-        },
-        {
-            "src": {
-                "port": "1",
                 "device": "device:leaf3"
             },
             "dst": {
@@ -140,6 +128,18 @@
             "dst": {
                 "port": "1",
                 "device": "device:leaf2"
+            },
+            "type": "DIRECT",
+            "state": "ACTIVE"
+        },
+        {
+            "src": {
+                "port": "1",
+                "device": "device:leaf2"
+            },
+            "dst": {
+                "port": "2",
+                "device": "device:spine1"
             },
             "type": "DIRECT",
             "state": "ACTIVE"
