@@ -53,27 +53,27 @@ const getMenuData = () => {
             label: '系统管理',
             url: null,
             menus: [
-                {
-                    menuid: 72,
-                    icon: 'User',
-                    label: '用户管理',
-                    name: 'user',
-                    url: 'system/user',
-                },
-                {
-                    menuid: 73,
-                    icon: 'Avatar',
-                    label: '角色管理',
-                    name: 'role',
-                    url: 'system/Role',
-                },
-                {
-                    menuid: 76,
-                    icon: 'Document',
-                    label: '日志管理',
-                    name: 'log',
-                    url: 'system/Permission',
-                },
+                // {
+                //     menuid: 72,
+                //     icon: 'User',
+                //     label: '用户管理',
+                //     name: 'user',
+                //     url: 'system/user',
+                // },
+                // {
+                //     menuid: 73,
+                //     icon: 'Avatar',
+                //     label: '角色管理',
+                //     name: 'role',
+                //     url: 'system/Role',
+                // },
+                // {
+                //     menuid: 76,
+                //     icon: 'Document',
+                //     label: '日志管理',
+                //     name: 'log',
+                //     url: 'system/Permission',
+                // },
                 {
                     menuid: 77,
                     icon: 'Document',

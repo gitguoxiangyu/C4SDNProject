@@ -70,12 +70,20 @@ const videos = ref([
     }
 ]);
 const options = ref([{
-    label: 'h1',
-    value: 'http://ivi.bupt.edu.cn/hls/jshd.m3u8',
+    label: 'h1a',
+    value: 'http://113.54.231.161:8080/face.m3u8',
+},
+{
+    label: 'h1b',
+    value: 'http://113.54.231.161:8080/index.m3u8',
+},
+{
+    label: 'h1c',
+    value: 'http://113.54.231.161:8080/car.m3u8',
 },
 {
     label: 'h2',
-    value: 'http://192.168.3.3:8080/index.m3u8',
+    value: 'http://113.54.231.161:8080/action.m3u8',
 },])
 const HandlePlay = (video) => {
     getVideo(video.id);

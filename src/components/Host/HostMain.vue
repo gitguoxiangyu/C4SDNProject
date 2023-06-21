@@ -89,6 +89,7 @@ const sendFlow = ()=>{
 	store.dst = device.value.locations[0].elementId
 	store.isChange = true
 	console.log(store)
+	dialogVisible.value = false
 }
 const deleteHost = ()=>{
 	ElMessageBox.alert('确认删除', 'Title', {

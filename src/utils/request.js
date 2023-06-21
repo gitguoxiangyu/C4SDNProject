@@ -2,7 +2,7 @@ import axios from "axios";
 
 // 配置不同环境下，axios的默认请求地址
 if (process.env.NODE_ENV == "development") {
-  axios.defaults.baseURL = "http://192.168.3.3:8010";
+  axios.defaults.baseURL = "http://113.54.231.161:8010";
 } else if (process.env.NODE_ENV == "debug") {
   axios.defaults.baseURL = "";
 } else if (process.env.NODE_ENV == "production") {
